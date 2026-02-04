@@ -64,7 +64,7 @@ function App() {
     );
 
     const tx = await marketplace.buyPass(0, {
-      value: ethers.parseEther("0.01")
+      value: ethers.parseEther("0.05")
     });
 
     await tx.wait();
